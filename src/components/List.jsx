@@ -34,8 +34,8 @@ function List() {
   };
 
   return (
-    <div className="overflow-x-auto md:w-[60%] bg-white shadow-lg mt-4">
-      <table className="table-auto md:w-[30%] border-collapse border border-gray-300">
+    <div className="overflow-x-auto ml-4 md:w-[70%] bg-white shadow-lg mt-4">
+      <table className="table-auto border-collapse border border-gray-300">
         <thead>
           <tr className="bg-gray-200 text-gray-700">
             <th className="border border-gray-300 px-4 py-3 text-left">ID</th>
@@ -225,8 +225,8 @@ function List() {
       </table>
 
       {selectedStudent && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white rounded-lg shadow-lg p-6 w-1/2">
+        <div className="fixed inset-0 flex items-center justify-center bg-opacity-50">
+          <div className="bg-white rounded-lg shadow-lg p-6 w-full md:w-1/2">
             <h2 className="text-lg font-bold mb-4">Student Details</h2>
             <div className="space-y-2">
               <p>
