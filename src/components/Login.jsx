@@ -54,7 +54,7 @@ function Login() {
 
   return (
     <div className="m-2 md:mr-[35rem]">
-      <form onSubmit={loginSubmit} className="border-2 border-black w-[100%] mt-60 flex flex-col justify-center items-center p-5 gap-5 rounded-sm bg-white font-bold">
+      <form onSubmit={loginSubmit} className="shadow-2xl border-2 border-black w-[100%] mt-60 flex flex-col justify-center items-center p-5 gap-5 rounded-lg bg-white font-bold">
         <h3>Login</h3>
         <div className="flex flex-col self-start font-bold">
           <label>Email:</label>
